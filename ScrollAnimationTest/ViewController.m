@@ -148,7 +148,7 @@
         UIView* box = [[UIView alloc] init];
         [box setBackgroundColor:[UIColor redColor]];
         [box setFrame:CGRectMake(0, 0, tableView.frame.size.width, self.controller.rowHeight)];
-//        box.userInteractionEnabled = NO;
+        box.userInteractionEnabled = NO;
         [cell addSubview:box];
     }
     UIView* view = [[cell subviews] objectAtIndex:0];
